@@ -35,4 +35,23 @@ export default function ConsultaContato(){
      
         </>
     )
+    {/*
+    const contatos = [
+        {id:1,nome:"Maria",email:"maria@gmail.com"}
+        {id:1,nome:"Maria",email:"maria@gmail.com"}
+    ]    
+
+    <tbody>
+        {
+            contatos.map(ct =>
+                <tr>
+                    <td>{ct.id}</td>
+                    <td>{ct.nome}</td>
+                    <td>{ct.email}</td>
+                </tr>
+                )
+
+        }
+    <tbody/>    
+    */}
 }

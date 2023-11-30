@@ -5,10 +5,10 @@ export default function Search(){
     
     return(
         <>
-        <div>
+        <div className="input-group mb-3">
             <label className="form-label">Pesquisa</label>
-            <input className="" type="text"></input>
-            <button className="" onClick={ola}>Pesquisar</button>
+            <input className="form-control" type="text"></input>
+            <button className="btn btn-outline-secondary" onClick={ola}>Pesquisar</button>
         </div>
 
         </>
