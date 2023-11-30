@@ -1,7 +1,7 @@
 export default function CadContato(){
     return(
         <>
-        <h1>Novo Usuário</h1>
+        <h1 className="text-center">Novo Usuário</h1>
         
         <label className='form-label'>Informe o Nome: </label>
         <input className='form-control' type='text' placeholder='Informe o Nome'></input>

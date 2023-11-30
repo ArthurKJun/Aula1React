@@ -1,8 +1,11 @@
+import Search from "./search";
+
 export default function ConsultaContato(){
     return(
         <>
-        <h1>Tabela de Usuários</h1>
-        
+        <h1 className="text-center">Tabela de Usuários</h1>
+        <hr/>
+        <Search />
         <table className="table table-dark table-hover table-striped" >
             <thead>
                 <tr>

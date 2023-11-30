@@ -5,7 +5,9 @@ import ConsultaContato from './componentes/consultaContato';
 function App() {
   return (
     <div className="container">
-        
+
+      {/*<CadContato />*/}
+     
       <ConsultaContato />
 
     </div>
